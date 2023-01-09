@@ -1,2 +1,11 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Remove these from zip source
+
+docs export-ignore
+docs-api export-ignore
+docs-changelog export-ignore
+src export-ignore
+static export-ignore
+gitignore export-ignore
+gitattributes export-ignore
+docusaurus.config.js export-ignore
+README.md export-ignore

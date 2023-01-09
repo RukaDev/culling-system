@@ -6,27 +6,27 @@
     "ReplicatedStorage": {
       "$className": "ReplicatedStorage",
       "Source": {
-        "$path": "src/ReplicatedStorage"
+        "$path": "game-src/ReplicatedStorage"
       }
     },
 
     "ServerScriptService": {
       "$className": "ServerScriptService",
       "Source": {
-        "$path": "src/ServerScriptService"
+        "$path": "game-src/ServerScriptService"
       }
     },
 
     "ServerStorage": {
       "$className": "ServerStorage",
       "Source": {
-        "$path": "src/ServerStorage"
+        "$path": "game-src/ServerStorage"
       }
     },
 
     "StarterPack": {
       "$className": "StarterPack",
-      "$path": "src/StarterPack"
+      "$path": "game-src/StarterPack"
     },
 
     "StarterPlayer": {
@@ -35,14 +35,14 @@
       "StarterCharacterScripts": {
         "$className": "StarterCharacterScripts",
         "Source": {
-          "$path": "src/StarterPlayer/StarterCharacterScripts"
+          "$path": "game-src/StarterPlayer/StarterCharacterScripts"
         }
       },
 
       "StarterPlayerScripts": {
         "$className": "StarterPlayerScripts",
         "Source": {
-          "$path": "src/StarterPlayer/StarterPlayerScripts"
+          "$path": "game-src/StarterPlayer/StarterPlayerScripts"
         }
       }
     }
