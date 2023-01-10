@@ -1,3 +1,12 @@
+
+--[[
+
+Changes:
+	- Create close, med, far folders and run command to store positions + asset in template file
+	- Use culling system's method with each model having close, med, and far
+
+]]
+
 -- Services
 local RunService = game:GetService("RunService")
 

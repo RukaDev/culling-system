@@ -6,18 +6,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Cyclone',
+  tagline: 'A culling system for more performant games',
   url: 'https://github.com',
-  baseUrl: '/culling-system/',
+  baseUrl: '/cyclone/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/cyclone.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'RukaDev', // Usually your GitHub org/user name.
-  projectName: 'culling-system', // Usually your repo name.
+  organizationName: 'rukadev', // Usually your GitHub org/user name.
+  projectName: 'cyclone', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -40,7 +40,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/rukadev/cyclone',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -75,10 +75,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Cyclone',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/cyclone.png',
         },
         items: [
           {
@@ -100,7 +100,7 @@ const config = {
             activeBaseRegex: `/docs-changelog/`,
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/rukadev/cyclone',
             label: 'GitHub',
             position: 'right',
           },
@@ -108,44 +108,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} rukadev. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

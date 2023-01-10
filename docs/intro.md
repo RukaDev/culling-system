@@ -2,37 +2,22 @@
 sidebar_position: 1
 ---
 
-# Pixel Creator 
+# Cyclone
 
-Pixel creator is a lightweight framework that simplifies the creation of web based games for use with Html, CSS, and Javascript. 
+Cyclone is a culling system for dynamically rendering objects in 3D space according to proximity. Cyclone features a broad serach to instantiate objects, and a narrow search to define level of detail for theses instantiated objects.
 
-## Why pixel creator?
-Pixel creator is aimed at simplifying the game creation process by providing the gameplay features ready at your disposal.
-Games are structured and ran with 3 simple functions for the user to program, which are the setup, start the end functions.
-Each game configuration is housed within a single file to easily keep track of and manage. Pixel creator also allows for the implementation of multiple games per website, so you can house collections of levels witihin one single site.
+---
 
-## Technical Features
-* Sprite handling
+## Goals
 
-* 2D rendering
+* Allow for seamless integration to any project by introducing different modes.
 
-* Input handling
+* Provide a performant solution to large-scale maps by reducing memory.
 
-* Utility classes
+* Encourage ambitious projects without fear of performance implications. 
 
-* Module functions
+## Non-goals
 
-## Contents
+* Providing performance relief for dense areas.
 
-See [Installation](docs/getting-started.md) to start using Pixel Creator.      
-See API to get used to the API.      
-See Changelog for newest updates.      
-
-
-
-
-
-
-
-
-
+* Compatability with randomly generated maps.
