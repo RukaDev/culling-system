@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpixelone=self.webpackChunkpixelone||[]).push([[953],{50:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"docs-changelog"}')}}]);
