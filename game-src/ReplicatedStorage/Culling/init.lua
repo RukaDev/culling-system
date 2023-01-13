@@ -33,7 +33,6 @@ local assets = script.Assets
 -- Extra
 local octree
 local culled = {}
-local heartbeat
 local character
 local currentRegion = "region1"
 local caches = {}
@@ -72,7 +71,6 @@ local function addRange(position, info, range)
 		if info.template[idx] ~= 0 then
 			local modInfo = terrains[objectCategory][info.template[idx]]
 			for name, offsetTable in pairs(modInfo) do 
-				--name = ObjectLookup[objectCategory][name].name This is where i'll check for styling
 				for _, offset in pairs(offsetTable) do
 					local function positionPart(part)
 						if part:IsA("Model") then
@@ -114,7 +112,7 @@ local function addAllRanges(culledPositions, pos)
 				addRange(position, info, Config.RANGES[i])
 			end
 		end
-		info.range = range 
+		info.range = range
 	end
 end
 
@@ -239,8 +237,9 @@ function CullingController.Stop()
 		cullOut(position, info)
 	end
 	
-	
 	-- Reset global
+	caches = {}
+	terrains = {}
 	culled = {}
 	octree = nil
 end
